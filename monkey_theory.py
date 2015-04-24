@@ -36,7 +36,7 @@ def runit():
     global master_score
     global best_try
     i=0
-    while i <=1000000:
+    while i <=1000000000:
         my_score, my_poop = scoreit(generate())
 
         if my_score > master_score:
