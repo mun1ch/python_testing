@@ -1,15 +1,5 @@
-class A:
-    def f(self):
-        return self.g()
+mylist = []
+mylist.append('poop')
+print(len(mylist))
 
-    def g(self):
-        return 'A'
-
-class B(A):
-    def g(self):
-        return 'B'
-
-a = A()
-b = B()
-print(a.f(), b.f())
-print(a.g(), b.g())
+print(mylist)
